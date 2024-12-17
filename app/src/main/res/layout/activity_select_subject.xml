@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Select course"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/subjectContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/subject1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numerical (4 Credits)" />
+
+        <CheckBox
+            android:id="@+id/subject2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data System (4 Credits)" />
+
+        <CheckBox
+            android:id="@+id/subject3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Algorithm (4 Credits)" />
+
+        <CheckBox
+            android:id="@+id/subject4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wireless and Mobile Programming (4 Credits)" />
+
+        <CheckBox
+            android:id="@+id/subject5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Software Engineering (4 Credits)" />
+
+        <CheckBox
+            android:id="@+id/subject6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3D Animation (4 Credits)" />
+
+        <CheckBox
+            android:id="@+id/subject7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Network Security (4 Credits)" />
+
+        <CheckBox
+            android:id="@+id/subject8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artificial Intelligence (4 Credits)" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/enrollButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enroll" />
+</LinearLayout>
